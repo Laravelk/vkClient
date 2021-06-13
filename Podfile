@@ -6,7 +6,8 @@ target 'vkMessanger' do
   use_frameworks!
 	pod 'RxSwift'
 	pod 'RxCocoa'
-
+	pod 'SwiftGen'
+	pod 'Moya', '~> 14.0'
   # Pods for vkMessanger
 
 end

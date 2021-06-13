@@ -1,0 +1,11 @@
+xcassets:
+  inputs:
+    - vkMessanger/Resources/Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: vkMessanger/Generated/Assets.generated.swift
+ib:
+  inputs: vkMessanger/Modules
+  outputs:
+      - templateName: scenes-swift4
+        output: vkMessanger/Generated/Storyboards.generated.swift
